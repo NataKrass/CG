@@ -1,0 +1,28 @@
+#root nav {
+    width: 100%;
+
+    .navbar-nav .nav-link {
+        color: var(--text-light-color);
+        font-family: 'Montserrat';
+        padding: 0 .8rem;
+
+        &:hover,
+        &:active {
+            color: var(--primary-color);
+            font-weight: 400;
+        }
+    }
+
+    .dropdown-toggle::after {
+        display: inline-block;
+        margin-left: .455em;
+        vertical-align: -2px;
+        content: ' \276E';
+        border: none;
+        transform: rotate(-91deg);
+    }
+
+    .navbar-brand img {
+        max-width: 100%;
+    }
+}

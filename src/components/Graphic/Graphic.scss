@@ -1,0 +1,18 @@
+.setting {
+    padding: 80px 0;
+    //background: url(../../assets/img/bg-header.jpg) center / cover no-repeat fixed;
+    &_logo img {
+        width: 250px;
+    }
+    &_content {
+        padding-left: 40px;
+        h2 {
+            width: 600px;
+            padding: 75px 0 40px;
+        }
+        button {
+            margin-top: 50px;
+        }
+    }
+    
+}

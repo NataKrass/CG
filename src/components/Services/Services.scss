@@ -1,0 +1,100 @@
+#services {
+    background: #f9f9f9;
+    padding: 70px 0px 20px;
+
+    .container-fluid {
+        padding: 0 100px;
+    }
+
+    h2 {
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 25px;
+    }
+
+    .services_box {
+        margin: 100px 0 60px 0;
+    }
+
+    .text-left {
+        padding-left: 60px;
+
+        p {
+            text-align: start;
+            position: relative;
+            padding-left: 14px;
+
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 5px;
+                height: 97%;
+                background: #b4d782;
+                top: 3px;
+                left: 0px;
+            }
+        }
+    }
+
+    .services_logo-left {
+        text-align: right;
+        padding: 70px 50px;
+        height: 150px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        img {
+            height: max-content;
+        }
+    }
+
+    .services_logo-right {
+        text-align: left;
+        padding-left: 70px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        img {
+            height: 71%;
+        }
+
+        .core-pay {
+            height: 90%;
+        }
+    }
+
+    .text-right {
+        padding-right: 60px;
+
+        p {
+            position: relative;
+            padding-right: 14px;
+
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 5px;
+                height: 97%;
+                background: #b4d782;
+                top: 3px;
+                right: 0;
+            }
+        }
+    }
+
+    button {
+        height: 45px;
+        width: 130px;
+        color: var(--text-color);
+        margin-top: 30px;
+    }
+
+    .services_btn {
+        margin-left: 15px;
+    }
+
+}

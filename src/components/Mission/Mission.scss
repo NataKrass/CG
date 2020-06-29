@@ -1,0 +1,45 @@
+#mission {
+    background: #f5f5f5;
+    padding: 70px 0px 50px;
+
+    .container-fluid {
+        padding: 0 100px;
+    }
+
+    h3 {
+        font-size: 24px;
+
+    }
+
+    .mission_box {
+        height: 200px;
+        width: 100%;
+
+        &-1 {
+            background: url(../../assets/img/investors.png) center/15% no-repeat;
+        }
+
+        &-2 {
+            background: url(../../assets/img/founder.png) center/9% no-repeat;
+        }
+
+        &-3 {
+            background: url(../../assets/img/business.png) center/18% no-repeat;
+        }
+
+        &-4 {
+            background: url(../../assets/img/startup.png) center/18% no-repeat;
+        }
+
+    }
+
+    .heading {
+        margin: 0 auto;
+
+        h2 {
+            text-align: center;
+            padding-bottom: 100px;
+        }
+    }
+
+}
