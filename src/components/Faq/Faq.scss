@@ -1,0 +1,136 @@
+
+   //
+
+.faq {
+    background: #f9f9f9;
+    padding: 100px 0;
+   &_box {
+       background: #fff;
+    h2 {
+        text-align: center;
+        padding-top: 30px;
+    }
+   }
+
+}
+
+.accordion-list{
+  list-style: none;
+  margin: 0 auto;
+  padding: 30px 0 80px;
+  width: 85%;
+  overflow: hidden;
+  
+  &__item{
+    &+&{
+      border-top: 1px solid #e8e8e8;
+    }
+    ul {
+      display: none;
+    }
+    &:last-child {
+      ul {
+       display: block; 
+       list-style: none;
+       li {
+         position: relative;
+         color: var(--text-color);
+         &:before {
+           content: '';
+           display: block;
+           position: absolute;
+           top: 10px;
+           left: -16px;
+           width: 5px;
+           height: 5px;
+           background: var(--text-color);
+           border-radius: 50%;
+         }
+       }
+      }
+    }
+  }
+}
+
+.accordion-item{
+  $self: &;
+
+  &--opened{    
+    #{ $self }__title{
+       color: var(--primary-color);
+      }
+
+    #{ $self }__icon{
+      background-position-x: 1%;
+      background-image: url(../../assets/img/plus.png);
+      transform: rotate(180deg);
+    }
+        
+    #{ $self }__inner{
+      max-height: 100rem;
+      transition-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+      transition-duration: 0.5s;
+      transition-property: max-height;
+    }
+    
+    #{ $self }__content{
+      opacity: 1;
+      transform: translateY(0);
+      transition-delay: 0.2s;
+      transition-timing-function: ease-in-out;
+      transition-duration: 0.2s;
+      transition-property: opacity, transform;
+    }
+  }
+
+  &__line{
+    padding: 0.8rem 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+  }
+  
+  &__title{
+    margin: 0;
+    text-transform: inherit;
+  }
+  
+  &__icon{
+    content: '+';
+    width: 17px;
+    height: 19px;
+    transition: transform 0.3s ease-in-out;
+    background-position-x: 106%;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/img/plus.png);
+    opacity: 0.6;
+  }
+  
+  &__inner{
+    max-height: 0;
+    overflow: hidden;
+    text-transform: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    transition-duration: 0.5s;
+    transition-property: max-height;
+    z-index: 1;
+    position: relative;
+  }
+  
+  &__content{
+    opacity: 0;
+    transform: translateY(-1rem);
+    transition-timing-function: linear, ease;
+    transition-duration: 0.1s;
+    transition-property: opacity, transform;
+    transition-delay: 0.5s;
+    padding: 0 1.2rem 1.2rem;
+  }
+  
+  &__paragraph{
+    font-family: 'Montserrat';
+    color: var(--text-color);
+    margin: 0;
+  }
+}

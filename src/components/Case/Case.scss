@@ -1,12 +1,13 @@
 .case {
     padding: 70px 0px 20px;
+    background: #f9f9f9;
     position: relative;
 
     &:before {
         content: '';
         display: block;
         position: absolute;
-        width: 5px;
+        width: 2.5px;
         height: calc(87.9% - 200px);
         background: #b4d782;
         top: 420px;
@@ -63,7 +64,7 @@
                 left: 100%;
                 top: 50%;
                 width: 100px;
-                height: 5px;
+                height: 2.3px;
                 background-color: #b4d782;
             }
 
@@ -101,7 +102,7 @@
                 right: 100%;
                 top: 50%;
                 width: 100px;
-                height: 5px;
+                height: 2px;
                 background-color: #b4d782;
             }
 

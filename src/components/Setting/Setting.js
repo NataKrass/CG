@@ -1,8 +1,8 @@
 import React, { PureComponent } from 'react'
 import { Container, Row, Col, Button } from 'reactstrap'
 
-import logo from '../../assets/img/logo-dark.png'
-import Graphic from './../Graphic'
+import logo from '../../assets/img/corepass.svg'
+import Cloud from '../Cloud'
 import './Setting.scss'
 
 export default class Setting extends PureComponent {
@@ -10,16 +10,16 @@ export default class Setting extends PureComponent {
 
   render() {
     return (
-      <section id='setting' className='setting'>
+      <section className='setting'>
         <Container fluid>
           <Row>
             <Col xs='12' className='text-center'>
-              <a className='setting_logo' href='#'>
+              <div className='setting_logo' rel='noopener noreferrer' target='blank'>
                 <img src={logo} alt='logo'></img>
-              </a>
+              </div>
             </Col>
             <Col xs='12' md='6'>
-              <Graphic />
+              <Cloud />
             </Col>
             <Col xs='12' md='6'>
               <div className='setting_content'>

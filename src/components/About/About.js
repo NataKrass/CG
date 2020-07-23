@@ -1,16 +1,15 @@
 import React, { PureComponent } from 'react'
 import { Container, Row, Col } from 'reactstrap'
 
-import globe from '../../assets/img/globe.png'
+import globe from '../../assets/img/globe1.png'
 import './About.scss'
 
-export default class Header extends PureComponent {
-  static propTypes = {}
+export default class About extends PureComponent {
 
   render() {
     return (
-      <section id='about'>
-        <Container fluid>
+      <section id='about' className='about'>
+        <Container>
           <Row>
             <Col md='6' sm='12'>
               <h2>
@@ -29,36 +28,42 @@ export default class Header extends PureComponent {
             </Col>
           </Row>
           <Row>
-            <Col md='4' sm='12'>
+            <Col md='12' lg='4' sm='12'>
               <div className='about_box'>
                 <div className='about_box-img about_box-img1'></div>
-                <p className='text-center'>
-                  The Core Group has built a global, decentralized, Blockchain
-                  based, ecosystem that is immediately available but is also
-                  fully capable of evolving to cater to the world of the future.
-                </p>
+                <div className='about_box_text'>
+                  <p className='text-center'>
+                    The Core Group has built a global, decentralized, Blockchain
+                    based, ecosystem that is immediately available but is also
+                    fully capable of evolving to cater to the world of the future.
+                  </p>
+                </div>
               </div>
             </Col>
 
-            <Col md='4' sm='12'>
+            <Col md='12' lg='4' sm='12'>
               <div className='about_box'>
-                <p className='text-center'>
-                  Our platform is aligned with all 17 Sustainable Developments
-                  Goals (“SDGs”) of the United Nations which illustrates the
-                  congruence of our platform with envisaged future global
-                  societal needs.
-                </p>
+                <div className='about_box_text'>
+                  <p className='text-center'>
+                    Our platform is aligned with all 17 Sustainable Developments
+                    Goals (“SDGs”) of the United Nations which illustrates the
+                    congruence of our platform with envisaged future global
+                    societal needs.
+                  </p>
+                </div>
                 <div className='about_box-img about_box-img2'></div>
               </div>
             </Col>
-            <Col md='4' sm='12'>
-              <div className='about_box'>
+            <Col md='12' lg='4' sm='12'>
+              <div className='about_box about_box-last'>
                 <div className='about_box-img about_box-img3'></div>
-                <p className='text-center'>
-                  The Core Group’s mission is to provide seamless, secure,
-                  transparent and trustworthy communication and transactional
-                  environment for both current and future generations.
-                </p>
+                <div className='about_box_text'>
+                  <p className='text-center'>
+                    The Core Group’s mission is to provide seamless, secure,
+                    transparent and trustworthy communication and transactional
+                    environment for both current and future generations.
+                  </p>
+                </div>
               </div>
             </Col>
           </Row>

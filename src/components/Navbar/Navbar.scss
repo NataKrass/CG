@@ -1,5 +1,6 @@
 #root nav {
     width: 100%;
+    transition: .5s;
 
     .navbar-nav .nav-link {
         color: var(--text-light-color);
@@ -26,3 +27,4 @@
         max-width: 100%;
     }
 }
+

@@ -1,0 +1,17 @@
+
+.contact {
+    path {
+        fill: "#949494";
+        stroke: "#949494";
+        
+    }
+    
+    .mark.active {
+        fill: var(--primary-color)!important;
+      
+    }
+    .mark:hover {
+        fill: var(--primary-color);
+        stroke: "#b4d782"
+    }
+} 

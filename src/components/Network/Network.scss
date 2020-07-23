@@ -1,0 +1,49 @@
+.network {
+    background: #f9f9f9 url(../../assets/img/network.png) center 490px / cover no-repeat;
+    padding: 120px 0;
+
+    h2 {
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    img {
+        text-align: center;
+        padding: 40px 0 140px;
+    }
+
+    .benefit {
+        padding: 70px 0 50px;
+        width: 80%;
+        margin: 0 auto;
+        p {
+            position: relative;
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 2px;
+                height: 98%;
+                background: var(--primary-color);
+                top: 2px;
+                left: -11px;
+            }
+        }
+        
+    }
+
+    @media (min-width: 1600px) {
+        .container, .container-lg, .container-md, .container-sm, .container-xl {
+            max-width: 1540px;
+        }
+    }
+    
+    @media (min-width: 1400px) {
+        .container, .container-lg, .container-md, .container-sm, .container-xl {
+            max-width: 1340px;
+        }
+    }
+  
+}
+
+

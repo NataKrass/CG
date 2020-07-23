@@ -1,0 +1,62 @@
+.partners {
+    padding: 70px 0;
+
+    h2 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .subtext {
+        margin: 0 auto;
+    }
+
+    .slick-slider {
+        padding: 100px 0 30px;
+
+        .slick-dots li button:before {
+            color: #bebebe;
+            opacity: 1;
+        }
+
+        .slick-dots .slick-active button:before {
+            color: var(--primary-color);
+            font-size: 10px;
+        }
+
+        .slider-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 200px;
+
+            a {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
+                img {
+                    width: 70%;
+                    margin: 10% auto;
+                }
+
+                .mmun {
+                    width: 53%;
+                }
+            }
+
+        }
+
+    }
+
+    @media (min-width: 1200px) {
+
+        .container,
+        .container-lg,
+        .container-xl {
+            max-width: 90%;
+        }
+    }
+
+}

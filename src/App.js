@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Header, About, Mission, Services, Setting, Case } from './components'
+import { Header, About, Mission, Services, Setting, Case, Network, Partners, Faq, Contact, Footer } from './components'
 import  './assets/fonts/style.css'
 
 function App() {
@@ -12,6 +12,11 @@ function App() {
       <Services />
       <Setting />
       <Case />
+      <Network />
+      <Partners />
+      <Faq />
+      <Contact />
+      <Footer />
     </div>
   )
 }

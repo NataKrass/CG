@@ -10,17 +10,33 @@
         padding-left: 40px;
 
         h2 {
-            width: 600px;
             padding: 75px 0 30px;
-        }
-
-        p {
-            width: 600px;
         }
 
         button {
             margin-top: 50px;
         }
     }
+    @media (min-width: 1300px) {
+
+        &_content {
+            padding-left: 40px;
+    
+            h2 {
+                width: 600px;
+                padding: 75px 0 30px;
+            }
+    
+            p {
+                width: 600px;
+            }
+        }
+    }
+
+    @media (min-width: 1550px) {
+        background: url(../../assets/img/register.jpg) center 273% / contain no-repeat;
+    }
 
 }
+
+

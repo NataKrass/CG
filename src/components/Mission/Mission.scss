@@ -1,6 +1,6 @@
-#mission {
+.mission {
     background: #f5f5f5;
-    padding: 70px 0px 50px;
+    padding: 70px 0px 30px;
 
     .container-fluid {
         padding: 0 100px;
@@ -12,23 +12,23 @@
     }
 
     .mission_box {
-        height: 200px;
+        height: 230px;
         width: 100%;
 
         &-1 {
-            background: url(../../assets/img/investors.png) center/15% no-repeat;
+            background: url(../../assets/img/investors.png) center/30% no-repeat;
         }
 
         &-2 {
-            background: url(../../assets/img/founder.png) center/9% no-repeat;
+            background: url(../../assets/img/growth.png) center/30% no-repeat;
         }
 
         &-3 {
-            background: url(../../assets/img/business.png) center/18% no-repeat;
+            background: url(../../assets/img/present.png) center/30% no-repeat;
         }
 
         &-4 {
-            background: url(../../assets/img/startup.png) center/18% no-repeat;
+            background: url(../../assets/img/rocket.png) center/29% no-repeat;
         }
 
     }

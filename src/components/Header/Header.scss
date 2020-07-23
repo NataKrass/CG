@@ -20,17 +20,15 @@
     }
 
     h1 {
-        padding: 120px 0 40px;
-        width: 65%;
-        font-family: 'Montserrat-Light';
+        padding: 260px 0 40px;
+        font-family: 'Montserrat-SemiBold';
+        text-transform: uppercase;
         margin: 0 auto;
-
-        b {
-            font-weight: 600;
-        }
+        letter-spacing: 0.9px;
 
         span {
-            font-style: italic;
+            color: var(--primary-color);
+            font-family: 'Montserrat-SemiBold';
         }
     }
 
@@ -42,5 +40,46 @@
 
     button {
         color: var(--text-color);
+    }
+}
+
+.header .navbar {
+    position: absolute;
+    z-index: 3;
+}
+
+.sticky .navbar {
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    background: #3d3d3d;
+    box-shadow: 0px 10px 20px 0 rgba(91, 92, 94, 0.16);
+}
+
+#root .sticky nav .navbar-brand img {
+    max-width: 50%;
+}
+
+#root .sticky nav .dropdown-toggle::after {
+  display: none;
+}
+
+#root .sticky .navbar-nav .nav-link {
+    padding: 0;
+}
+
+.sticky-item {
+    display: none;
+}
+
+.sticky {
+
+    .dropdown-toggle {
+        display: none;
+    }
+
+    .sticky-item {
+        display: block;
+        padding-top: 0;
     }
 }

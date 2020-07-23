@@ -1,4 +1,4 @@
-#about {
+.about {
     background: #f9f9f9;
     padding: 50px 0 115px;
 
@@ -26,17 +26,27 @@
         padding-bottom: 170px;
 
         img {
-            width: 82%;
-            padding-left: 120px;
+            width: 100%;
+            padding: 40px 0 0 90px;
         }
     }
 
     .about_box {
-        &-img {
-            width: 400px;
+
+        &_text {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
             height: 230px;
+
+            p {
+                padding: 20px 40px 40px;
+            }
+        }
+        
+        &-img {
+            height: 225px;
             overflow: hidden;
-            // mix-blend-mode: luminosity;
             transition: all 200ms ease-out;
         }
 
@@ -45,19 +55,22 @@
         }
 
         &-img1 {
-            background: url(../../assets/img/image.jpeg) center/cover no-repeat;
+            background: url(../../assets/img/img-1.jpeg) center/cover no-repeat;
         }
 
         &-img2 {
-            background: url(../../assets/img/image1.jpeg) center/cover no-repeat;
+            background: url(../../assets/img/img-2.jpeg) center/cover no-repeat;
         }
 
         &-img3 {
-            background: url(../../assets/img/image2.jpeg) center/cover no-repeat;
+            background: url(../../assets/img/img-3.jpeg) center/cover no-repeat;
         }
 
-        p {
-            padding: 70px 20px 40px;
+    }
+
+    @media (min-width: 1500px){
+        .container {
+            max-width: 1440px;
         }
     }
 

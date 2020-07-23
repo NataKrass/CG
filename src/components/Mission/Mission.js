@@ -8,7 +8,7 @@ export default class Mission extends PureComponent {
 
   render() {
     return (
-      <section id='mission'>
+      <section id='mission' className='mission'>
         <Container fluid>
           <Row>
             <Col xs='12'>
@@ -18,22 +18,22 @@ export default class Mission extends PureComponent {
             </Col>
           </Row>
           <Row>
-            <Col md='3' sm='6' xs='6'>
+            <Col md='3' sm='6' xs='12'>
               <div className='mission_box mission_box-1'>
                 <h4>Investors</h4>
               </div>
             </Col>
-            <Col md='3' sm='6' xs='6'>
+            <Col md='3' sm='6' xs='12'>
               <div className='mission_box mission_box-2'>
                 <h4>Founders</h4>
               </div>
             </Col>
-            <Col md='3' sm='6' xs='6'>
+            <Col md='3' sm='6' xs='12'>
               <div className='mission_box mission_box-3'>
                 <h4>Business</h4>
               </div>
             </Col>
-            <Col md='3' sm='6' xs='6'>
+            <Col md='3' sm='6' xs='12'>
               <div className='mission_box mission_box-4'>
                 <h4>Startups</h4>
               </div>
