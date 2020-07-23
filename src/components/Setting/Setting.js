@@ -25,11 +25,17 @@ export default class Setting extends PureComponent {
               <div className='setting_content'>
                 <h2>Setting a new standart in smart contract platfom</h2>
                 <p>
-                  The Core Group provides the digitalization and allows you to
-                  get access to all the platforms of the group<br></br>
-                  For quick access to the platform you just need to register in
-                  Core Passport
-                </p>
+                  The Core Group has developed a blockchain based digital identity platform with a full
+                  KYC verification which will be released soon. </p>
+                  <p>
+                    This feature rich decentralized mobile application will be your singular digital identity for all 
+                    services developed b Core Group and several other global intagrations.
+                  </p>
+                  <p>
+                    Want to get ahead of the game? Register yourself so long and we will inform you when the full
+                    KYC application is completed
+                  </p>
+                
                 <Button>Get started</Button>
               </div>
             </Col>

@@ -50,8 +50,7 @@ const data = [
   },
   {
     title: 'What are Decentralized Applications?',
-    paragraph:
-      'Decentralized applications are software solutions and processes that are:',
+    paragraph: `Decentralized applications are software solutions and processes that are:`,
   },
 ]
 

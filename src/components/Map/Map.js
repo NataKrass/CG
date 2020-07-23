@@ -14,12 +14,12 @@ const mapStyles = {
   height: 'auto',
 }
 
-const circleTallin = [geoCircle().center([26, 59]).radius(1.5)()]
-const circleCape = [geoCircle().center([29, -25]).radius(1.5)()]
-const circleTbilisi = [geoCircle().center([43.4, 42]).radius(1.5)()]
-const circleEustis = [geoCircle().center([-81, 28]).radius(1.5)()]
-const circleBrat = [geoCircle().center([19, 49]).radius(1.5)()]
-const circleVaduz = [geoCircle().center([11, 47.5]).radius(1.5)()]
+const circleTallin = [geoCircle().center([26, 59]).radius(2)()]
+const circleCape = [geoCircle().center([29, -25]).radius(2)()]
+const circleTbilisi = [geoCircle().center([43.4, 42]).radius(2)()]
+const circleEustis = [geoCircle().center([-81, 28]).radius(2)()]
+const circleBrat = [geoCircle().center([19, 49]).radius(2)()]
+const circleVaduz = [geoCircle().center([11, 47.5]).radius(2)()]
 
 const Map = ({ center, isActive }) => (
   <div>

@@ -10,7 +10,6 @@ import sliderItem3 from '../../assets/img/revolgy.png'
 import sliderItem4 from '../../assets/img/core-coin.svg'
 import sliderItem5 from '../../assets/img/cryptohub-logo.png'
 import sliderItem6 from '../../assets/img/core-mesh.png'
-import sliderItem7 from '../../assets/img/evolution.svg'
 import './Partners.scss'
 
 export default class Partners extends PureComponent {
@@ -88,14 +87,7 @@ export default class Partners extends PureComponent {
                     <img src={sliderItem5} alt='crytohub'></img>
                   </a>
                 </div>
-                <div className='slider-item'>
-                  <a
-                    href='https://github.com/cryptohub-digital'
-                    target='_blank' rel='noopener noreferrer'
-                  >
-                    <img src={sliderItem7} alt='crytohub'></img>
-                  </a>
-                </div>
+                
               </Slider>
             </Col>
           </Row>
